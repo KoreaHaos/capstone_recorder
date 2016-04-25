@@ -5,19 +5,26 @@
  *  Use of this source code is governed by a BSD-style license
  *  that can be found in the LICENSE file in the root of the source
  *  tree.
+
+ *  This is Haos stripping a WebRTC Sample for use in Carroll's Capstone Project.
+ *  The Original Source can be found at the link below.
+ *  
+ *  Source : https://github.com/webrtc/samples/blob/gh-pages/src/content/getusermedia/record/index.html
 -->
+
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="description" content="A Haos Tear Down of the WebRTC Samples Record Example">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
   <meta itemprop="description" content="Client-side WebRTC Recorder">
-  <meta itemprop="name" content="WebRTC Record amples">
+  <meta itemprop="name" content="WebRTC Record Sample">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta id="theme-color" name="theme-color" content="#ffffff">
   <base target="_blank">
   <title>Capstone Recorder</title>
 </head>
+
 <body>
   <div id="container">
     <video id="gum" autoplay muted></video>
@@ -29,8 +36,10 @@
       <button id="download" disabled>Download</button>
     </div>
   </div>
+
   <!-- include adapter for srcObject shim -->
   <script src="lib/js/adapter.js"></script>
   <script src="lib/js/main.js"></script>
 </body>
+
 </html>
